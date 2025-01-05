@@ -156,3 +156,43 @@ img {
     font-weight: bold;
     align-self: flex-end;
 }
+
+/* style call-to-action */
+
+.call-to-action {
+    display: flex;
+    background-color: white;
+    padding: 50px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px 125px;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.blue-box-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.bigger-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 500;
+}
+
+.smaller-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button > .sign-up {
+    border: 1px solid white;
+}
