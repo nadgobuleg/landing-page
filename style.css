@@ -196,3 +196,13 @@ img {
 .button > .sign-up {
     border: 1px solid white;
 }
+
+/* style for footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    color: #F9FAF8;
+    font-size: 14px;
+}
