@@ -4,15 +4,11 @@ body {
     min-height: 100vh;
     background-color: #1F2937;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* display: flex; */
-    /* flex-direction: column; */
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
-    /* align-items: stretch; */
-    /* height: 100vh; */
   }
 
 /* style for header */
@@ -21,6 +17,7 @@ body {
     display: flex;
     background-color: #1F2937;
     padding: 15px 200px;
+    padding-bottom: 50px;
     align-items: center;
 }
 
@@ -36,6 +33,7 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 500;
 }
 
 .link {
@@ -52,7 +50,7 @@ body {
 .main {
     display: flex;
     background-color: #1F2937;
-    padding: 15px 200px;
+    padding: 50px 200px;
     justify-content: center;
     align-items: stretch;
 }
@@ -91,4 +89,47 @@ img {
     padding: 5px 25px;
     border-radius: 5px;
     margin-top: 10px;
+}
+
+/* style for random-info */
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+.boxes {
+    display: flex;
+    gap: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 125px;
+}
+
+.box-border {
+    height: 125px;
+    width: 125px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.box-text {
+    display: flex;
+    margin-top: 15px;
+    font-size: 12px;
 }
