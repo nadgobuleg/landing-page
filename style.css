@@ -133,3 +133,26 @@ img {
     margin-top: 15px;
     font-size: 12px;
 }
+
+/* style for quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 50px 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    align-self: flex-end;
+}
